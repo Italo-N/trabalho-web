@@ -1,0 +1,111 @@
+h1 {
+  font-size: 1.80em;
+  text-align: left;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: left;
+}
+header{
+  width: 200%;
+  height: 100px;
+  background-color: rgb(33, 209, 176);
+  position: absolute; top: 0; left: 0;
+  z-index: 3;
+}
+footer{
+  position: fixed; bottom: 0px; left: 0px;
+}
+.html{
+  background: white;
+  background: linear-gradient(to top, #cce4ee 0%, white 8%) 0 62px;
+  background-size: 100% 35px;
+  line-height: 30px;
+}
+.htmlativa{
+  background: white;
+  background: linear-gradient(to top, #6861f5 0%, #23262E 8%) 0 62px;
+  background-size: 100% 30px;
+  line-height: 30px;
+
+}
+.materia{
+  width: 1375px;
+  margin-top: 100px;
+  margin-left: 200px;
+  background-color: white;
+  border: 6px inset green;
+  border-radius: 2%;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.materiaativa{
+  background-color: #23262E;
+  color: rgb(181, 181, 181);
+  border: 5px inset rgb(117, 59, 7);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.lateral{
+  background-image: linear-gradient(to right, rgba(66, 54, 205, 1), rgba(73, 93, 232, 1));
+  color: black;
+  width: 150px;
+  height: 97vh;
+  position: sticky;
+  top: 0px;
+  left: -15px;
+  background-repeat: no-repeat;
+  border: 3px solid rgb(5, 0, 255);
+  border-radius: 20px;
+  float: left;
+}
+.lateral h1, .lateral h2{
+  border: 3px outset rgb(54, 102, 226);
+  padding: 5px 0px;
+  margin: 14px 7px;
+  border-collapse: collapse;
+}
+.lateral h1:active, .lateral h2:active{
+  border-style: inset;
+  padding: 5px 5px;
+  margin: 14px 5px;
+  border-collapse: collapse;
+}
+.materia{
+  margin-left: 162px;
+}
+.calculo-densidade{
+  float: left;
+}
+.calculo-massa{
+  text-align: right;
+}
+p:not(.formulas){
+  text-indent: 30px;
+}
+html,body{
+  height: 100%;
+}
+#conteudo{
+  position: relative;
+}
+.form{
+  position: sticky;
+  float: right;
+  top: 0;
+}
+#copoda{
+  margin-top: 20px;
+  margin-right: 120px;
+  float: left;
+  border-radius: 100%;
+  shape-outside: circle();
+}
+#copodo{
+  margin-top: 20px;
+  margin-left: 20px;
+  float: right;
+  border-radius:20%;
+  shape-outside: polygon();
+}
